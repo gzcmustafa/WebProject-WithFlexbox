@@ -191,3 +191,21 @@ img{
 .teams img{
     border-radius: 49.9999999999999999999999999999999999999999%;
 }
+#teams img:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+/* footer */
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 200px;
+    border-top: 1px solid blanchedalmond;
+}
+.footer i:hover{
+    opacity: 0.9;
+}
