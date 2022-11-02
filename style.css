@@ -175,3 +175,19 @@ img{
     cursor: pointer;
     opacity: 0.8;
 }
+/* cards */
+.card{
+    color: white;
+    font-weight: 700;
+}
+
+.card-body{
+    padding: 2rem;
+}
+.card-body span{
+    color:firebrick;
+}
+/* teams */
+.teams img{
+    border-radius: 49.9999999999999999999999999999999999999999%;
+}
