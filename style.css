@@ -97,6 +97,11 @@ img {
     position: relative;
 }
 
+.main-header.blog{
+    background-image: url(images/bg-2.jpeg);
+    height: 50vh;
+}
+
 .main-header .content{
     display: flex;
     flex-direction: column;
@@ -196,6 +201,15 @@ img{
     opacity: 0.8;
 }
 
+/* article */
+.articles{
+    padding: 3rem 5rem;
+}
+.article{
+    margin-top: 1.5rem;
+    color: #fff;
+}
+
 /* footer */
 .footer{
     display: flex;
@@ -208,4 +222,24 @@ img{
 }
 .footer i:hover{
     opacity: 0.9;
+}
+
+/* mobile */
+@media(max-width:768px){
+    html{
+        font-size: 9px;
+    }
+    .navbar {
+        flex-direction: column;
+        height: 120px;
+        padding: 20px;
+    }
+
+    .navbar a{
+        padding: 10px;
+        margin: 0 3px;
+    }
+    .teams img{
+        width: 60%;
+    }
 }

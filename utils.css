@@ -126,6 +126,13 @@
     flex: 1;
 }
 
+.flex-columns.article .column:nth-child(odd){
+   flex: 2 ;
+}
+.flex-columns.article .column:nth-child(even){
+  flex: 3;
+}
+
 .flex-columns .column .column-1, .column-2{
     height: 100%;
 }
@@ -169,4 +176,20 @@
 
 .section-padding{
     padding: 2rem 2rem 4rem;
+}
+
+@media(max-width:768px){
+    .flex-items{
+        flex-direction: column;
+    }
+
+    .flex-items > div{
+        padding: 10px;
+    }
+    .flex-columns .column{
+        flex: 100% !important ; 
+    }
+    .flex-grid .column{
+        flex: 50%;
+    }
 }
